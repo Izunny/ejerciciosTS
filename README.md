@@ -1,0 +1,2 @@
+# ejerciciosTS
+Ejercicios TypeScript
