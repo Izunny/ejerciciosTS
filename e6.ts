@@ -5,7 +5,7 @@ type Concat<T extends readonly any[], U extends readonly any[]> = [...T, ...U];
 // el ejemplo de tu ejercicio
 type Result = Concat<[1], [2]>; // resulta en [1, 2]
 
-// un ejemplo con más elementos y tipos mixtos
+// un ejemplo con mas elementos y tipos mixtos
 type Salad = Concat<['🍅', '🥬'], ['🥑', '🧅']>; // resulta en ['🍅', '🥬', '🥑', '🧅']
 
 // concatenando con una tupla vacia
